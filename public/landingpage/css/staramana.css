@@ -1,0 +1,55 @@
+.alamathead{
+    width: 169px;
+    margin: 0px;
+    float: right;
+}
+.akunuser{
+    background: rgba(0, 0, 0, 0.05);
+}
+.imgakun{
+    border-radius:50%;
+    height: 57px;
+    margin-left: 29px;
+    width: 60px;
+}
+.namakun{
+    /* border: 1px solid; */
+    float: right;
+    margin-right: 46px;
+}
+.akunuserhead::after{
+    width: 10px;
+    height: 2px;
+    color: black;
+}
+.ikon{
+    margin-right: 10px;
+}
+.pesananrow{
+    margin-left: 2px;
+}
+.pagiblog{
+    margin: 0px;
+    margin-right: 1px;
+    float: left;
+    width: 33px;
+    /* height: 33px; */
+    line-height: 34px;
+    background: #666;
+    text-align: center;
+    padding: 0;
+    border-radius: 0px;
+    border: none;
+    color: white;
+}
+
+.menuhead {
+    position: relative;
+    left: 9%;
+    /* top: 0%; */
+    margin-top: 1%;
+}
+
+.none{
+    display: none;
+}

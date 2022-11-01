@@ -1,0 +1,159 @@
+.alamathead{
+    width: 169px;
+    margin: 0px;
+    float: right;
+}
+.akunuser{
+    background: rgba(0, 0, 0, 0.05);
+}
+.imgakun{
+    border-radius:50%;
+    height: 57px;
+    margin-left: 29px;
+    width: 60px;
+}
+.namakun{
+    /* border: 1px solid; */
+    float: right;
+    margin-right: 46px;
+}
+.akunuserhead::after{
+    width: 10px;
+    height: 2px;
+    color: black;
+}
+.ikon{
+    margin-right: 10px;
+}
+.pesananrow{
+    margin-left: 2px;
+}
+.pagiblog{
+    margin: 0px;
+    margin-right: 1px;
+    float: left;
+    width: 33px;
+    /* height: 33px; */
+    line-height: 34px;
+    background: #666;
+    text-align: center;
+    padding: 0;
+    border-radius: 0px;
+    border: none;
+    color: white;
+}
+
+.menuhead {
+    position: relative;
+    left: 9%;
+    /* top: 0%; */
+    margin-top: 1%;
+}
+
+.none{
+    display: none;
+}
+
+
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.step-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--prm-gray);
+    transition: .4s;
+}
+
+.step-button[aria-expanded="true"] {
+    width: 60px;
+    height: 60px;
+    background-color: var(--prm-color);
+    color: #fff;
+}
+
+.done {
+    background-color: var(--prm-color);
+    color: #fff;
+}
+
+.step-item {
+    z-index: 10;
+    text-align: center;
+}
+
+#progress {
+    -webkit-appearance: none;
+    position: absolute;
+    width: 95%;
+    z-index: 5;
+    height: 10px;
+    margin-left: 18px;
+    margin-bottom: 18px;
+}
+
+/* to customize progress bar */
+#progress::-webkit-progress-value {
+    background-color: var(--prm-color);
+    transition: .5s ease;
+}
+
+#progress::-webkit-progress-bar {
+    background-color: var(--prm-gray);
+
+}
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(8, 8, 8);
+    padding: 9px 20px;;
+    font-size: 12px;
+    color: #333;
+    border-radius: 3px;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 5;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #07083f;
+    color: rgb(255, 255, 255);
+}

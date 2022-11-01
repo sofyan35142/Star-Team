@@ -1,0 +1,90 @@
+*
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ .container{
+    width: 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+ }
+
+ .container h1{
+    color: white;
+    margin-bottom: 10px;
+ }
+
+.btn{
+    padding: 5px 10px;
+    font-weight: 60;
+    cursor: pointer;
+    display: inline-block;
+    transform: scale(1);
+    transition: all .2s;
+}
+.btn.show{
+    background: rgba(255, 255, 255, .7);
+}
+
+.btn-show:hover {
+    background: rgba(0, 0, 0, .7);
+    color: white;
+}
+
+.modal-container {
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.modal-container .modal {
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+transform: scale(.3);
+transition: .2s ease-in-out;
+}
+
+.modal h1, .modal p
+{
+    margin-bottom: 10px;
+}
+
+.btn-close{
+    background-color: red;
+    color: white;
+}
+
+.btn-close {
+    background-color: red;
+    transform: scale(1.1);
+}
+
+.checkbox:checked ~ .modal-container{
+    visibility: visible;
+    opacity: 1;
+}
+.checkbox:checked ~ .modal-container .modal{
+transform: scale(10);
+}
+
+.checkbox {
+    display: none;
+}
