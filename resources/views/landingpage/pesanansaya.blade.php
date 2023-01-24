@@ -53,16 +53,22 @@
                     </div> --}}
                     <div class="col-md-12 container mb-3 mt-3">
                         <nav class="nav nav-pills flex-column flex-sm-row">
-                            <a id="btn-semua" onclick="tes1()" class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Semua</a>
-                            <a id="btn-belumbayar" onclick="tes2()" class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="#">Belum bayar</a>
-                            <a id="btn-dikemas" onclick="tes3()" class="flex-sm-fill text-sm-center nav-link" href="#">Dikemas</a>
-                            <a id="btn-dikirim" onclick="tes4()" class="flex-sm-fill text-sm-center nav-link" href="#">Dikirim</a>
-                            <a id="btn-selesai" onclick="tes5()" class="flex-sm-fill text-sm-center nav-link" href="#" tabindex="-1">Selesai</a>
-                            <a id="btn-dibatalkan" onclick="tes6()" class="flex-sm-fill text-sm-center nav-link" href="#" tabindex="-1">Dibatalkan</a>
+                            <a id="btn-semua" onclick="tes1()" class="flex-sm-fill text-sm-center nav-link active"
+                                aria-current="page" href="#">Semua</a>
+                            <a id="btn-belumbayar" onclick="tes2()" class="flex-sm-fill text-sm-center nav-link"
+                                aria-current="page" href="#">Belum bayar</a>
+                            <a id="btn-dikemas" onclick="tes3()" class="flex-sm-fill text-sm-center nav-link"
+                                href="#">Dikemas</a>
+                            <a id="btn-dikirim" onclick="tes4()" class="flex-sm-fill text-sm-center nav-link"
+                                href="#">Dikirim</a>
+                            <a id="btn-selesai" onclick="tes5()" class="flex-sm-fill text-sm-center nav-link"
+                                href="#" tabindex="-1">Selesai</a>
+                            <a id="btn-dibatalkan" onclick="tes6()" class="flex-sm-fill text-sm-center nav-link"
+                                href="#" tabindex="-1">Dibatalkan</a>
                         </nav>
                     </div>
 
-                    <table class="table table-hover" id="semua" >
+                    <table class="table table-hover" id="semua">
                         <tbody>
                             <tr>
                                 <td class="text-left" style="width: 1100px;">
@@ -107,7 +113,8 @@
                                                     <div class="div">Total Pesanan: <span
                                                             class="font-size-lg">Rp.50.000,00</span></div>
                                                     <div class="mt-5">
-                                                        <button class="btn btn-danger"><a href="/checkout">Bayar Sekarang</a></button>
+                                                        <a href="/checkout"><button class="btn btn-danger">Bayar
+                                                                Sekarang</button></a>
                                                         <button class="btn btn-secondary">Hubungi penjual</button>
                                                     </div>
                                                 </div>
@@ -177,8 +184,10 @@
                                                     <div class="div">Total Pesanan: <span
                                                             class="font-size-lg">Rp.220.000,00</span></div>
                                                     <div class="mt-5">
-                                                        <a href="/detailproduk"><button class="btn btn-danger">Beli Lagi</button></a>
-                                                        <a href="/informasiorder"><button class="btn btn-secondary">Informasi Order</button></a>
+                                                        <a href="/detailproduk"><button class="btn btn-danger">Beli
+                                                                Lagi</button></a>
+                                                        <a href="/informasiorder"><button
+                                                                class="btn btn-secondary">Informasi Order</button></a>
                                                         <button class="btn btn-secondary">Hubungi penjual</button>
                                                     </div>
                                                 </div>
@@ -261,8 +270,8 @@
                                         </div>
                                         <div class="card-body">
                                             <div style="float: left">
-                                                <img src="fotoproduk/slingbag.webp" alt="Pastrami bacon" height="100px"
-                                                    width="100px">
+                                                <img src="fotoproduk/slingbag.webp" alt="Pastrami bacon"
+                                                    height="100px" width="100px">
                                             </div>
                                             <div style="float: right">
                                                 <b>Rp.45.000.000,00</b>
@@ -312,15 +321,15 @@
                                         </div>
                                         <div class="card-body">
                                             <div style="float: left">
-                                                <img src="fotoproduk/jamtangan.jfif" alt="Pastrami bacon" height="100px"
-                                                    width="100px">
+                                                <img src="fotoproduk/jamtangan.jfif" alt="Pastrami bacon"
+                                                    height="100px" width="100px">
                                             </div>
                                             <div style="float: right">
                                                 <b>Rp.250.000,00</b>
                                             </div>
                                             <div class="col-lg-6">
                                                 <h3>Jam Tanggan Pria</h3>
-                                                 Coklat <br />
+                                                Coklat <br />
                                                 1x
                                             </div>
                                         </div>
@@ -333,7 +342,8 @@
                                                     <div class="div">Total Pesanan: <span
                                                             class="font-size-lg">Rp.250.000,00</span></div>
                                                     <div class="mt-5">
-                                                        <a href="/detailproduk"><button class="btn btn-danger">Beli Lagi</button></a>
+                                                        <a href="/detailproduk"><button class="btn btn-danger">Beli
+                                                                Lagi</button></a>
                                                         <button class="btn btn-secondary">Hubungi penjual</button>
                                                     </div>
                                                 </div>
@@ -473,22 +483,25 @@
                                                     </div>
                                                 </div>
                                                 <div class="statusdikirimwrapper">
-                                                    <span class="statusdikirim"> 15-10-2022 07:26 Paket sedang di bawa kurir menuju ke lokasimu.</span>
-                                                    <span class="text-danger text-light statusdikirim"> <a href="/tampilan"> Dikirim</a></span>
+                                                    <span class="statusdikirim"> 15-10-2022 07:26 Paket sedang di bawa
+                                                        kurir menuju ke lokasimu.</span>
+                                                    <a href="/tampilan"><span
+                                                            class="text-danger text-light statusdikirim">
+                                                            Dikirim</span></a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="card-body">
                                             <div style="float: left">
-                                                <img src="fotoproduk/slingbag.webp" alt="Pastrami bacon" height="100px"
-                                                    width="100px">
+                                                <img src="fotoproduk/slingbag.webp" alt="Pastrami bacon"
+                                                    height="100px" width="100px">
                                             </div>
                                             <div style="float: right">
                                                 <b>Rp.45.000.000,00</b>
                                             </div>
                                             <div class="col-lg-6">
                                                 <h3>Slingbag pria</h3>
-                                                 Hitam <br />
+                                                Hitam <br />
                                                 1x
                                             </div>
                                         </div>
@@ -609,15 +622,15 @@
                                         </div>
                                         <div class="card-body">
                                             <div style="float: left">
-                                                <img src="fotoproduk/jamtangan.jfif" alt="Pastrami bacon" height="100px"
-                                                    width="100px">
+                                                <img src="fotoproduk/jamtangan.jfif" alt="Pastrami bacon"
+                                                    height="100px" width="100px">
                                             </div>
                                             <div style="float: right">
                                                 <b>Rp.250.000,00</b>
                                             </div>
                                             <div class="col-lg-6">
                                                 <h3>Jam Tanggan Pria</h3>
-                                                 Coklat <br />
+                                                Coklat <br />
                                                 1x
                                             </div>
                                         </div>
@@ -630,7 +643,8 @@
                                                     <div class="div">Total Pesanan: <span
                                                             class="font-size-lg">Rp.250.000,00</span></div>
                                                     <div class="mt-5">
-                                                        <a href="/detailproduk"><button class="btn btn-danger">Beli Lagi</button></a>
+                                                        <a href="/detailproduk"><button class="btn btn-danger">Beli
+                                                                Lagi</button></a>
                                                         <button class="btn btn-secondary">Hubungi penjual</button>
                                                     </div>
                                                 </div>

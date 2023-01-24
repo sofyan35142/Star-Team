@@ -122,9 +122,8 @@ Route::get('/pencariantoko', [LoginController::class, 'pencariantoko'])->name('p
 Route::get('/kembali', [LoginController::class, 'kembali'])->name('kembali');
 Route::get('/resolusi', [LoginController::class, 'resolusi'])->name('resolusi');
 Route::get('/official', [LoginController::class, 'official'])->name('official');
-Route::get('/kembali', [LoginController::class, 'kembali'])->name('kembali');
-Route::get('/resolusi', [LoginController::class, 'resolusi'])->name('resolusi');
-Route::get('/official', [LoginController::class, 'official'])->name('official');
+Route::get('/flashsale', [LoginController::class, 'flashsale'])->name('flashsale');
+Route::get('/ubahpass', [LoginController::class, 'ubahpass'])->name('ubahpass');
 
 
 
@@ -271,6 +270,7 @@ Route::group(['middleware' => ['auth', 'ceklevel:admin,penjual']], function () {
 
     //PENGIRIMAN
     Route::get('/pesananseller', [PenjualController::class, 'pesananseller'])->name('pesananseller');
+    Route::get('/perludikirim', [PenjualController::class, 'perludikirim'])->name('perludikirim');
     Route::get('/aturpengiriman', [PenjualController::class, 'aturpengiriman'])->name('aturpengiriman');
 
     Route::get('/pengembalian', [PenjualController::class, 'pengembalian'])->name('pengembalian');
@@ -278,5 +278,6 @@ Route::group(['middleware' => ['auth', 'ceklevel:admin,penjual']], function () {
     Route::get('/dikirim', [PenjualController::class, 'dikirim'])->name('dikirim');
     Route::get('/rincianperludikirim', [PenjualController::class, 'rincianperludikirim'])->name('rincianperludikirim');
     Route::get('/rinciandikirim', [PenjualController::class, 'rinciandikirim'])->name('rinciandikirim');
+    Route::get('/rincianbelumbayar', [PenjualController::class, 'rincianbelumbayar'])->name('rincianbelumbayar');
 
 });

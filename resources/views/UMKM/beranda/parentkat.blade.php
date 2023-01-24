@@ -16,9 +16,9 @@
             <ul class="breadcrumb">
                 <li><a href="/halutama"><i class="fa fa-home"></i></a></li>
                 <li><a href="/parentkat">Lebih banyak kategori</a></li>
-            </ul> 
-    
-            
+            </ul>
+
+
 
                     <div class="col-sm-12">
 				<table class="table table-bordered">
@@ -50,7 +50,7 @@
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
-                            
+
 						</tr>
                         <tr>
 							<td class="text-center">
@@ -60,12 +60,12 @@
                             <td class="text-center"><i class="fa fa-female"></i><a href="/kategorilanding"> Pakaian wanita</a></td>
                             <td class="text-center"><i class="fa fa-child"></i><a href="/kategorilanding">  Pakaian anak</a></td>
                             <td class="text-center"><i class="fa fa-leaf"></i><a href="/kategorilanding"> Aksesoris rambut</a></td>
-                            <td class="text-center"><i class="fa-solid fa-glasses"></i><a href="/kategorilanding"> Aksesoris fashion</a></td>          
+                            <td class="text-center"><i class="fa-solid fa-glasses"></i><a href="/kategorilanding"> Aksesoris fashion</a></td>
                             <td class="text-center"><i class="fa-solid fa-gem"></i></i><a href="/kategorilanding"> Perhiasan</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
-                            
+
 						</tr>
 						<tr>
 							<td class="text-center">
@@ -80,7 +80,7 @@
                             <td class="text-center"><i class="fa fa-plug"></i><a href="/kategorilanding">   Stopkontak</a></td>
                             <td class="text-center"><i class="fa-solid fa-fan"></i><a href="/kategorilanding">   Kipas angin</a></td>
                             <td class="text-center"><i class="fa fa-window-maximize"></i><a href="/kategorilanding">   AC</a></td>
-                            
+
 						</tr>
                         <tr>
 							<td class="text-center">
@@ -91,12 +91,12 @@
                             <td class="text-center"><i class="fa-solid fa-sd-card"></i><a href="/kategorilanding">   SD Card</a></td>
                             <td class="text-center"><i class="fa-solid fa-headphones"></i><a href="/kategorilanding">   Headphones</a></td>
                             <td class="text-center"><i class="fa-solid fa-headset"></i><a href="/kategorilanding">   Headset</a></td>
-                            
+
                             <td class="text-center"><i class="fa fa-volume-up" aria-hidden="true"></i><a href="/kategorilanding">  Speaker</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
-                            
+
 						</tr>
 						<tr>
 							<td class="text-center">
@@ -126,7 +126,7 @@
                             <td class="text-center">-</td>
                             <td class="text-center">-</td>
 						</tr>
-						
+
                         <tr>
 							<td class="text-center">
 								Makanan & Minuman
@@ -149,12 +149,12 @@
                             <td class="text-center"><i class="fa-solid fa-boxes-stacked"></i><a href="/kategorilanding"> Rak</a></td>
                             <td class="text-center"><i class="fa-solid fa-pump-soap"></i><a href="/kategorilanding">  Tempat Sabun</a></td>
                             <td class="text-center"><i class="fa-solid fa-toilet"></i><a href="/kategorilanding"> Kloset</a></td>
-                            <td class="text-center"><i class="fa-solid fa-shredder"></i><a href="/kategorilanding"> Sikat & Spons</a></td>          
+                            <td class="text-center"><i class="fa-solid fa-shredder"></i><a href="/kategorilanding"> Sikat & Spons</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
-                            
+
 						</tr>
                         <tr>
 							<td class="text-center">
@@ -169,7 +169,7 @@
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
                             <td class="text-center"><a href="/kategorilanding">-</a></td>
-                            
+
 						</tr>
                         <tr>
 							<td class="text-center">
@@ -218,9 +218,9 @@
 				</table>
                     </div>
         </div>
-			
 
-                   
+
+
 
 
                                 <!-- //Product Tabs -->
@@ -228,8 +228,8 @@
                                 @include('landingpage.layout.footer')
                                 <!-- //end Footer Container -->
 
-                         
-                     
+
+
 
 
 

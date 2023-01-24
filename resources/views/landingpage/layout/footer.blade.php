@@ -10,9 +10,9 @@
 
                             <div class="title-block">
                                 <div class="page-heading font-title">
-                                    Cari Toko!
+                                    Berlangganan Sekarang!!
                                 </div>
-                                <div class="promotext">Anda bisa cari toko disini! </div>
+                                <div class="promotext">Dan dapatkan notifikasi setiap ada promo dari Slick</div>
                             </div>
 
                             <div class="block_content">
@@ -20,14 +20,14 @@
                                     class="form-group form-inline signup send-mail">
                                     <div class="form-group">
                                         <div class="input-box">
-                                            <input type="email" placeholder="Toko yang anda cari..." value=""
+                                            <input type="email" placeholder="Masukkan email anda..." value=""
                                                 class="form-control" id="txtemail" name="txtemail" size="55">
                                         </div>
                                         <div class="subcribe">
                                             <a href="/pencariantoko"><button
                                                     class="btn btn-primary btn-default font-title" type="button"
                                                     name="submit">
-                                                    Cari
+                                                    Berlangganan
                                                 </button></a>
                                         </div>
                                     </div>

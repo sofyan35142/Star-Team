@@ -31,11 +31,11 @@
                         <h3 class="modtitle">KATEGORI BLOG</h3>
                         <div class="modcontent">
                             <ul class="list-group ">
-                                <li class="list-group-item"> <a href="blog-page.html"class="group-item active">Info Sukorejo</a></li>
-                                <li class="list-group-item"><a href="blog-page.html" class="group-item">Panen</a></li>
-                                <li class="list-group-item"><a href="blog-page.html" class="group-item">Berita Bulanan</a></li>
-                                <li class="list-group-item"><a href="blog-page.html" class="group-item">Batik Tulis Sarono Raharjo</a></li>
-                                <li class="list-group-item"><a href="blog-page.html" class="group-item">UMKM</a></li>
+                                <li class="list-group-item"> <a href="#"class="group-item active">Info Sukorejo</a></li>
+                                <li class="list-group-item"><a href="#" class="group-item">Panen</a></li>
+                                <li class="list-group-item"><a href="#" class="group-item">Berita Bulanan</a></li>
+                                <li class="list-group-item"><a href="#" class="group-item">Batik Tulis Sarono Raharjo</a></li>
+                                <li class="list-group-item"><a href="#" class="group-item">UMKM</a></li>
                             </ul>
                         </div>
                     </div>

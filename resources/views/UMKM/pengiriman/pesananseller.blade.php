@@ -34,6 +34,41 @@
                         <div id="tblsemua" class="card-body">
                             <h4 class="card-title">Prosescek</h4>
                         </div>
+                        {{-- {{ CARD BELUMBAYAR}} --}}
+                        <div id="tblbelumbayar" class="card-body">
+                            <h4 class="card-title">Belum Bayar</h4>
+                            <div class="table-responsive">
+                                <table id="tableselesai" class="display" style="min-width: 500px">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Produk</th>
+                                            <th>Jumlah Harus Dibayar</th>
+                                            <th>Status | Hitung Mundur</th>
+                                            <th>Semua Jasa pengiriman</th>
+                                            <th>Aksi</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @php
+                                            $no = 1;
+                                        @endphp
+                                        {{-- @foreach ($data as $produk) --}}
+                                        <tr>
+                                            <td> {{ $no++ }}</td>
+                                            <td><img class="imagedikirim" src="fotoproduk/foto3.jpg"
+                                                    alt="Sepatu Sneakers" width="100px">Sepatu Sneakers</td>
+                                            <td>Rp220.000 </td>
+                                            <td><b> Belum Bayar</b><br><span>Pembayaran Sebelum <br>10/11/2022</span></td>
+                                            <td> <strong>Reguler (cashless)</strong> <br /> J&T Express <br /> JP245643987
+                                            </td>
+                                            <td><a href="/rincianbelumbayar" style="color: blue">Periksa Rincian </a> </td>
+                                        </tr>
+                                        {{-- @endforeach --}}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                         {{-- CARD DIKEMAS --}}
                         <div id="tbldikemas" class="card-body">
                             <div class="table-responsive">
@@ -172,125 +207,35 @@
                             </div>
                             {{-- CARD BELUM BAYAR --}}
                             <div id="tblbelumbayar" class="card-body">
-                                <h4 class="card-title">1 Pesanan belum bayar</h4>
                                 <div class="table-responsive">
-                                    <div class="default-tab">
-                                        <ul class="nav nav-tabs" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" data-toggle="tab" href="#home">Semua</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" data-toggle="tab" href="#profile">Perlu diproses</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" data-toggle="tab" href="#contact">Telah Diproses</a>
-                                            </li>
-                                        </ul>
-                                        <div class="tab-content tab-konten">
-                                            <div class="tab-pane fade active show" id="home" role="tabpanel">
-                                                <table id="table1" class="display" style="min-width: 845px;">
-                                                    <thead>
-                                                        <tr style="text-align: center;">
-                                                            <th>No.</th>
-                                                            <th colspan="3" style="text-align: left">Produk</th>
-                                                            <th>Harga Total</th>
-                                                            <th>Status</th>
-                                                            <th>Jasa pengiriman</th>
-                                                            <th>Aksi</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        @php
-                                                            $no = 1;
-                                                        @endphp
-                                                        {{-- @foreach ($data as $produk) --}}
-                                                        <tr style="color:#89879f;text-align:center;">
-                                                            <td> {{ $no++ }}</td>
-                                                            <td>ini foto</td>
-                                                            <td>Earphone</td>
-                                                            <td>x1</td>
-                                                            <td>rp.10000</td>
-                                                            <td>Perlu dikirim</td>
-                                                            <td>JNE express</td>
-                                                            <td><a href="" style="color: blue" data-toggle="modal"
-                                                                    data-target="#exampleModalCenter">Atur pengiriman</a>
-                                                            </td>
-                                                        </tr>
-                                                        {{-- @endforeach --}}
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                            <div class="tab-pane fade" id="profile" role="tabpanel">
-                                                <table id="table2" class="display" style="min-width: 845px">
-                                                    <thead>
-                                                        <tr style="text-align: center;">
-                                                            <th>No.</th>
-                                                            <th colspan="3" style="text-align: left">Produk</th>
-                                                            <th>Harga Total</th>
-                                                            <th>Status</th>
-                                                            <th>Jasa pengiriman</th>
-                                                            <th>Aksi</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        @php
-                                                            $no = 1;
-                                                        @endphp
-                                                        {{-- @foreach ($data as $produk) --}}
-                                                        <tr style="color:#89879f;text-align:center;">
-                                                            <td> {{ $no++ }}</td>
-                                                            <td>ini foto</td>
-                                                            <td>Earphone</td>
-                                                            <td>x1</td>
-                                                            <td>rp.10000</td>
-                                                            <td>Perlu dikirim</td>
-                                                            <td>JNE express</td>
-                                                            <td><a href="" style="color: blue" data-toggle="modal"
-                                                                    data-target="#exampleModalCenter">Atur pengiriman</a>
-                                                            </td>
-                                                        </tr>
-                                                        {{-- @endforeach --}}
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                            <div class="tab-pane fade" id="contact">
-                                                <table id="table3" class="display" style="min-width: 845px">
-                                                    <thead>
-                                                        <tr style="text-align: center;">
-                                                            <th>No.</th>
-                                                            <th colspan="3" style="text-align: left">Produk</th>
-                                                            <th>Harga Total</th>
-                                                            <th>Status</th>
-                                                            <th>Jasa pengiriman</th>
-                                                            <th>Aksi</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        @php
-                                                            $no = 1;
-                                                        @endphp
-                                                        {{-- @foreach ($data as $produk) --}}
-                                                        <tr style="color:#89879f;text-align:center;">
-                                                            <td> {{ $no++ }}</td>
-                                                            <td>ini foto</td>
-                                                            <td>Earphone</td>
-                                                            <td>x1</td>
-                                                            <td>rp.10000</td>
-                                                            <td>Perlu dikirim</td>
-                                                            <td>JNE express</td>
-                                                            <td><a href="" style="color: blue" data-toggle="modal"
-                                                                    data-target="#exampleModalCenter">Atur pengiriman</a>
-                                                            </td>
-                                                        </tr>
-                                                        {{-- @endforeach --}}
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <h4 class="card-title">1 Pesanan Telah selesai</h4>
+                                    <table id="tableselesai" class="display" style="min-width: 845px">
+                                        <thead>
+                                            <tr>
+                                                <th>N0.</th>
+                                                <th>Produk</th>
+                                                <th>Harga Total</th>
+                                                <th>Status</th>
+                                                <th>Jasa Kirim</th>
+                                                <th>No.pesanan</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td class="produkisi"><img src="fotoproduk/jamtangan.jfif" alt="Jam Tangan"
+                                                        height="100px" width="100px">
+                                                    <div class="namaproduk">Jam tangan<br>x1</div>
+                                                </td>
+                                                <td>Rp.500.000</td>
+                                                <td>Menunggu pembeli menilai produk</td>
+                                                <td>Jne Expres</td>
+                                                <td>#7237872289</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
-                        </div>
                         {{-- CARD DIKIRIM --}}
                         <div id="tbldikirim" class="card-body">
                             <h4 class="card-title">1 Pesanan dikirim</h4>

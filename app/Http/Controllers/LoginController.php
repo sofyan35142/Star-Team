@@ -270,19 +270,19 @@ class LoginController extends Controller
         return view('landingpage.official');
     }
     public function syaratlayanan(){
-        return view('kebijakan slick.syaratlayanan');
+        return view('kebijakanslick.syaratlayanan');
     }
 
     public function kebijakanbarang(){
-        return view('kebijakan slick.kebijakanbarang');
+        return view('kebijakanslick.kebijakanbarang');
     }
 
     public function persyaratanflash(){
-        return view('kebijakan slick.persyaratanflashsale');
+        return view('kebijakanslick.persyaratanflashsale');
     }
 
     public function programgratisongkir(){
-        return view('kebijakan slick.programgratisongkir');
+        return view('kebijakanslick.programgratisongkir');
     }
 
     public function pembayaran(){

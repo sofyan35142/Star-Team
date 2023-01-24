@@ -283,21 +283,14 @@
                                                         Kargo
                                                     </label>
                                                 </div></li>
-                                            <li><div class="form-check">
+                                            <li><div class="form-switch">
                                                     <input class="form-check-input" type="checkbox" value=""
                                                         id="flexCheckDefault">
                                                     <label class="form-check-label" for="flexCheckDefault">
                                                         Sameday
                                                     </label>
-                                                </div></li>
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 031b6fa66ce18d24a1d6c2798d06acf1b695c2b9
->>>>>>> e87afe146014277f671b62b8a0fdb9c61fd0136f
+                                                </div>
+                                            </li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -1720,7 +1713,7 @@
     </div>
 
     <!-- Include Libs & Plugins
- ============================================ -->
+== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="landingpage/js/jquery-2.2.4.min.js"></script>
     <script type="text/javascript" src="landingpage/js/bootstrap.min.js"></script>
@@ -1735,7 +1728,7 @@
 
 
     <!-- Theme files
- ============================================ -->
+== -->
 
 
     <script type="text/javascript" src="landingpage/js/themejs/so_megamenu.js"></script>

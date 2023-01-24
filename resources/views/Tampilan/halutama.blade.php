@@ -1120,7 +1120,7 @@
                                                                     <div class="item-time">
                                                                         <div class="item-timer">
                                                                             <div class="clockdiv"
-                                                                                data-date="10 22,2022 21:22:54">
+                                                                                data-date="11 08,2022 21:22:54">
                                                                                 <div class="time-item time-day">
                                                                                     <div class="num-time days"></div>
                                                                                     <div class="name-time">Hari</div>
@@ -1224,7 +1224,7 @@
                                                                     <div class="item-time">
                                                                         <div class="item-timer">
                                                                             <div class="clockdiv"
-                                                                                data-date="10 22,2022 13:22:45">
+                                                                                data-date="11 08,2022 13:22:45">
                                                                                 <div class="time-item time-day">
                                                                                     <div class="num-time days"></div>
                                                                                     <div class="name-time">Hari</div>
@@ -1327,7 +1327,7 @@
                                                                     <div class="item-time">
                                                                         <div class="item-timer">
                                                                             <div class="clockdiv"
-                                                                                data-date="10 22,2022 15:22:10">
+                                                                                data-date="11 08,2022 00:00:00">
                                                                                 <div class="time-item time-day">
                                                                                     <div class="num-time days"></div>
                                                                                     <div class="name-time">Hari</div>
@@ -1341,7 +1341,7 @@
                                                                                     </div>
                                                                                     <div class="name-time">Menit</div>
                                                                                 </div>
-                                                                                <div zclass="time-item time-sec">
+                                                                                <div class="time-item time-sec">
                                                                                     <div class="num-time seconds">
                                                                                     </div>
                                                                                     <div class="name-time">Detik</div>
@@ -1427,7 +1427,7 @@
                                                                     <div class="item-time">
                                                                         <div class="item-timer">
                                                                             <div class="clockdiv"
-                                                                                data-date="10 22,2022 09:22:10">
+                                                                                data-date="11 08,2022 09:22:10">
                                                                                 <div class="time-item time-day">
                                                                                     <div class="num-time days"></div>
                                                                                     <div class="name-time">Hari</div>

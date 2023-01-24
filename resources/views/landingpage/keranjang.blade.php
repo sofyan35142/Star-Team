@@ -11,7 +11,7 @@
 
 
         <!-- Header Container  -->
-        @include("landingpage.layout.header")
+        @include('landingpage.layout.header')
         <!-- //Header Container  -->
 
         <!-- Main Container  -->
@@ -52,8 +52,8 @@
                                     <td class="text-left">20cm</td>
                                     <td class="text-left" width="200px">
                                         <div class="input-group btn-block quantity">
-                                            <input type="number" name="quantity" min="1" value="1" size="1"
-                                                class="form-control" />
+                                            <input type="number" name="quantity" min="1" value="1"
+                                                size="1" class="form-control" />
                                             <span class="input-group-btn">
                                                 <button type="submit" data-toggle="tooltip" title="Update"
                                                     class="btn btn-primary"><i class="fa fa-clone"></i></button>
@@ -78,8 +78,8 @@
                                     <td class="text-left">-</td>
                                     <td class="text-left" width="200px">
                                         <div class="input-group btn-block quantity">
-                                            <input type="number" name="quantity" min="1" value="1" size="1"
-                                                class="form-control" />
+                                            <input type="number" name="quantity" min="1" value="1"
+                                                size="1" class="form-control" />
                                             <span class="input-group-btn">
                                                 <button type="submit" data-toggle="tooltip" title="Update"
                                                     class="btn btn-primary"><i class="fa fa-clone"></i></button>
@@ -123,18 +123,18 @@
                                         </td>
                                         <td class="text-right">$34.68</td>
                                     </tr> --}}
-                                        <tr>
-                                          <td class="text-right" colspan="4"><strong>Sub-Total Produk:</strong></td>
-                                          <td class="text-right">Rp. 50000</td>
-                                        </tr>
-                                        <tr>
-                                          <td class="text-right" colspan="4"><strong>Biaya Admin:</strong></td>
-                                          <td class="text-right">Rp. 2500</td>
-                                        </tr>
-                                        <tr>
-                                          <td class="text-right" colspan="4"><strong>Total Pembayaran:</strong></td>
-                                          <td class="text-right">Rp. 52500</td>
-                                        </tr>
+                                    <tr>
+                                        <td class="text-right" colspan="4"><strong>Sub-Total Produk:</strong></td>
+                                        <td class="text-right">Rp. 50000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right" colspan="4"><strong>Biaya Admin:</strong></td>
+                                        <td class="text-right">Rp. 2500</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right" colspan="4"><strong>Total Pembayaran:</strong></td>
+                                        <td class="text-right">Rp. 52500</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -154,7 +154,7 @@
 
         <!-- Footer Container -->
         @include('landingpage.layout.footer')
-    <!-- //end Footer Container -->
+        <!-- //end Footer Container -->
 
     </div>
 

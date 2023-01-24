@@ -216,4 +216,13 @@ class PenjualController extends Controller
         return view('UMKM.beranda.rincian');
     }
 
+    public function perludikirim()
+    {
+        return view('UMKM.beranda.perludikirim');
+    }
+    public function rincianbelumbayar()
+    {
+        return view('landingpage.belumbayar');
+    }
+
 }
