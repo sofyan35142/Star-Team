@@ -64,10 +64,25 @@
         body {
             font-family: 'Roboto', sans-serif
         }
-        .btn-text-right{
-	text-align: right;
-}
 
+        .btn-text-right {
+            text-align: right;
+        }
+        /* reponsive */
+        @media(max-width:600px){
+            .logoresponsive{
+                width: 64%;
+            }
+            .header.typeheader-1 .megamenu-style-dev .navbar-default .vertical .navbar-header{
+                top: 31px;
+            }
+            .d-nrespon{
+                display: none !important;
+            }
+            .position-respon{
+                top: 30px !important;
+            }
+        }
     </style>
 
 </head>

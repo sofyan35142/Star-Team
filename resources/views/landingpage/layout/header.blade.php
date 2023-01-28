@@ -3,7 +3,7 @@
         <div class="header-top hidden-compact">
             <div class="container">
                 <div class="row">
-                    <div class="header-top-left col-lg-7 col-md-8 col-sm-6 col-xs-4">
+                    <div class="header-top-left col-lg-7 col-md-8 col-sm-6 col-xs-4 logore">
                         <div class="hidden-sm hidden-xs welcome-msg"><b><a href="/toko"></a>Selamat datang di
                                 MarketPlace Sukorejo !</b>
                         </div>
@@ -75,7 +75,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Logo -->
-                    <div class="navbar-logo col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <div class="navbar-logo col-lg-2 col-md-2 col-sm-12 col-xs-12 logoresponsive">
                         <div class="logo"><a href="#"><img src="landingpage/image/catalog/4.png"
                                     title="Your Store" alt="Your Store" /></a></div>
                     </div>
@@ -84,7 +84,7 @@
                     <!-- Main menu -->
                     <div class="main-menu col-lg-6 col-md-7 ">
                         <div class="responsive so-megamenu megamenu-style-dev menuhead">
-                            <nav class="navbar-default">
+                            <nav class="navbar-default d-nrespon">
                                 <div class=" container-megamenu  horizontal open ">
                                     <div class="navbar-header">
                                         <button type="button" id="show-megamenu" data-toggle="collapse"
@@ -481,7 +481,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="navbar-header">
+                                        <div class="navbar-header position-respon">
                                             <button type="button" id="show-verticalmenu" data-toggle="collapse"
                                                 class="navbar-toggle">
                                                 <i class="fa fa-bars"></i>
@@ -1334,7 +1334,7 @@
         </div>
 
         <!-- Search -->
-        <div class="bottom2 col-lg-7 col-md-6 col-sm-6">
+        <div class="bottom2 col-lg-7 col-md-6 col-sm-6 d-nrespon">
             <div class="search-header-w">
                 <div class="icon-search hidden-lg hidden-md hidden-sm"><i class="fa fa-search"></i>
                 </div>
